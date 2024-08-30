@@ -1,0 +1,38 @@
+//tescase 1
+
+initial power of Abhimanyu: 16
+number of skip: 1
+number of recharges: 1
+powers of 11 enemies: 8 5 6 3 7 4 10 2 1 5 9
+
+ Output: Abhimanyu Fail the Chakrabuhya
+
+
+//tescase 2
+
+initial power of Abhimanyu: 28
+number of skip: 3
+number of recharges: 2
+powers of 11 enemies: 7 11 9 8 6 12 15 5 4 10 13
+
+Output: Abhimanyu Pass the Chakrabuhya
+
+
+//tescase 3
+
+initial power of Abhimanyu: 20
+number of skip: 1
+number of recharges: 2
+powers of 11 enemies: 5 10 8 7 12 3 15 6 9 14 11
+
+Output: Abhimanyu Fail the Chakrabuhya
+
+
+//tescase 4
+
+initial power of Abhimanyu: 150
+number of skip: 2
+number of recharges: 1
+powers of 11 enemies: 120 110 14 140 20 30 10 5 8 10 15
+
+Output: Abhimanyu Pass the Chakrabuhya
