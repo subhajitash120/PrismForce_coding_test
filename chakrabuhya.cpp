@@ -2,8 +2,10 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
-bool CheckPass(int current_circle, int current_power, int skip, int recharge, vector<int>&enemy_powers, bool IsSkipPrev, int initial_power){
+
+bool CheckPass(ll current_circle, ll current_power, ll skip, ll recharge, vector<ll>&enemy_powers, bool IsSkipPrev, ll initial_power){
     
     //base case
     if(current_circle>10) return true;
@@ -39,8 +41,8 @@ bool CheckPass(int current_circle, int current_power, int skip, int recharge, ve
 }
 
 int main(){
-    int initial_power, skip, recharge;
-    vector<int>enemy_powers(11);
+    ll initial_power, skip, recharge;
+    vector<ll>enemy_powers(11);
     
     cout<<"Enter initial power of Abhimanyu: ";
     cin>>initial_power;
@@ -52,7 +54,7 @@ int main(){
     cin>>recharge;
     
     cout<<"Enter powers of 11 enemies: ";
-    for(int i=0; i<11; i++){
+    for(ll i=0; i<11; i++){
         cin>>enemy_powers[i];
     }
     if(CheckPass(0,initial_power, skip, recharge, enemy_powers, false, initial_power)){
